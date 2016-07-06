@@ -6016,6 +6016,7 @@ body.modal-open,
 .coord-styler {
     width:150px;
     height: auto;
+    border-radius: 7px;
     /*border-radius: 50%;
     border:5px solid #8e2c19;*/
 }
@@ -6023,6 +6024,7 @@ body.modal-open,
 .teacher-styler {
     width:150px;
     height: auto;
+    border-radius: 7px;
     /*border-radius: 50%;
     border:5px solid #5b5bb7;*/
 }

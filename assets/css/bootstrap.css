@@ -1392,6 +1392,27 @@ pre code {
     margin-left: 91.66666666666666%;
   }
 }
+/* ======== LINK STYLING ======== */
+/* unvisited link */
+a:link {
+    color: black;
+}
+
+/* visited link */
+a:visited {
+    color: black;
+}
+
+/* mouse over link */
+a:hover {
+    color: green;
+}
+
+/* selected link */
+a:active {
+    color: black;
+}
+/* ======== LINK STYLING ======== */
 
 table {
   max-width: 100%;
@@ -5991,6 +6012,21 @@ body.modal-open,
   border-right-width: 0;
   content: " ";
 }
+/* ===== Coordinator and Teacher picture styling ===== */
+.coord-styler {
+    width:150px;
+    height: auto;
+    /*border-radius: 50%;
+    border:5px solid #8e2c19;*/
+}
+
+.teacher-styler {
+    width:150px;
+    height: auto;
+    /*border-radius: 50%;
+    border:5px solid #5b5bb7;*/
+}
+/* ===== Coordinator and Teacher picture styling ===== */
 
 .carousel {
   position: relative;

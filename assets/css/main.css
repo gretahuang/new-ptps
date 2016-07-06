@@ -29,8 +29,9 @@ p {
   border-style: solid;
   border-color: #cccccc;
   border-width: thin;
-  padding:10px;
-  border-radius: 10px;
+  padding:.5em;
+  padding-top: 1.5em;
+  border-radius: 1em;
   background-color: #e6e6e6;
 }
 
@@ -139,9 +140,9 @@ a:after {
     color: #ffffff;
     font-family: "Lato";
     font-weight: 380;
-    font-size: 20px;
-    margin-top: 25px;
-    margin-bottom: 10px;
+    font-size: 14.5pt;
+    margin-top: 20px;
+    margin-bottom: 5px;
     margin-right: 50px;
     text-align: justify;
 }
@@ -271,15 +272,15 @@ a:after {
 }*/
 
 .meetuswrap {
-    padding: 20px;
+    padding: 2em;
 }
 .meetusimages {
     display: inline-block;
     width: 125.3px;
     height: 188.65px;
-    background: #ccc;
-    margin: 5px;
-    border-radius: 5px;
+    background: #cccccc;
+    border-radius: 1em;
+    margin: 0.5em;
 }
 
 #sitewrap {

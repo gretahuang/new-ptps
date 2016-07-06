@@ -302,7 +302,7 @@ if (!jQuery) { throw new Error("Bootstrap requires jQuery") }
     this.options     = options
     this.paused      =
     this.sliding     =
-    this.interval    =
+    this.interval    = 
     this.$active     =
     this.$items      = null
 
@@ -312,7 +312,7 @@ if (!jQuery) { throw new Error("Bootstrap requires jQuery") }
   }
 
   Carousel.DEFAULTS = {
-    interval: 5000
+    interval: 1
   , pause: 'hover'
   , wrap: true
   }

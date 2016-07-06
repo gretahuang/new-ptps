@@ -6016,8 +6016,8 @@ body.modal-open,
 .coord-styler {
     width:150px;
     height: auto;
-    border-radius: 7px;
-    /*border-radius: 50%;
+/*    border-radius: 7px;
+*/    /*border-radius: 50%;
     border:5px solid #8e2c19;*/
 }
 
@@ -6027,6 +6027,28 @@ body.modal-open,
     border-radius: 7px;
     /*border-radius: 50%;
     border:5px solid #5b5bb7;*/
+}
+
+figure { 
+  display: inline-block;
+  position: relative;
+  max-width: 400px;
+}
+
+figcaption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 15px;
+  color: #FFF;
+  background: rgba(0, 0, 0, .75);
+/*  position: relative; 
+  background: rgba(0,0,0,0.75); 
+  color: white; 
+  padding: 10px 20px; 
+  display: table-caption;
+  caption-side: bottom;*/
 }
 /* ===== Coordinator and Teacher picture styling ===== */
 

@@ -236,17 +236,61 @@ a:after {
 	font-size: 20px;
 }
 
-/* Showcase Wrap */
+/* Teacher Wrap */
 
-#showcase {
+#teacherwrap {
+    padding-top: 35px;
+    border-top: #bdc3c7 solid 5px;
+    padding-bottom: 40px;
+}
+
+#teacherwrap h1 {
+    font-family: "Raleway";
+    font-size: 30pt;
+}
+
+#teacherwrap h3 {
+    font-family: "Raleway";
+    font-size: 14pt;
+}
+
+/*#teacherwrap {
 	display: block;
 	background-color: #34495e;
 	padding-top: 50px;
 	padding-bottom: 50px;
 }
 
-#showcase h1 {
+#teacherwrap h1 {
 	color: white;
+}
+
+#teacherwrap h3 {
+    color: white;
+    font-size: 14pt;
+}*/
+
+.meetuswrap {
+    padding: 20px;
+}
+.meetusimages {
+    display: inline-block;
+    width: 125.3px;
+    height: 188.65px;
+    background: #ccc;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+#sitewrap {
+    display: block;
+    background-color: #34495e;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#sitewrap h1 {
+    color: white;
 }
 
 #footerwrap {

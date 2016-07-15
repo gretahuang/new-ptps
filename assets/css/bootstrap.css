@@ -6013,33 +6013,30 @@ body.modal-open,
   content: " ";
 }
 /* ===== Coordinator and Teacher picture styling ===== */
-.coord-styler {
-    width:150px;
-    height: auto;
-}
-
-.teacher-styler {
+.teacher {
     width:150px;
     height: auto;
 }
 
 figure {
+  position: relative;
   display: inline-block;
   margin: 15px;
 }
 
 figure img {
   vertical-align: top;
-  border-radius: 15px;
 }
 
 figure figcaption {
-  text-align: center;
-  color: #4d4d4d;
-  font-weight: 500;
-/*  color: #FFF;
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  width: 100%;
+  padding: 7px;
+  color: #FFF;
+  opacity: 0.9;
   background: rgba(0, 0, 0, .75);
-  padding: 7px;*/
 }
 /* ===== Coordinator and Teacher picture styling ===== */
 

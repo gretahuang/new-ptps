@@ -75,7 +75,7 @@ img.displayed {
 .announcement-wrapper {
 /*    min-width: 100%;
     height: auto;*/
-    background-image: url('../img/item-02.png');
+/*    background-image: url('../img/item-02.png');*/
     border-radius: 10px;
     width: 100%;
     height: 0;
@@ -90,10 +90,11 @@ img.displayed {
     width:70%;
     margin-top:10%;
     margin-left:16%;
-    color: #ffffff;
-    text-align: left;
+    color: #737373;
+    text-align: justify;
+    /*text-align: left;*/
     font-size:20px;
-    font-family: "Inconsolata";
+/*    font-family: "Inconsolata";*/
 }
 
 /* Links */
@@ -354,7 +355,7 @@ a:after {
 .btn:hover {
     border-style: none;
     color:#ffffff;
-    background-color: #009900;
-    opacity:1;
+/*    background-color: #009900;
+*/    opacity:0.75;
 }
 

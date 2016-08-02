@@ -2013,7 +2013,17 @@ if (!jQuery) { throw new Error("Bootstrap requires jQuery") }
 function copyToClipboard(element) {
   var $temp = $("<input>");
   $("body").append($temp);
-  $temp.val($(element).href()).select();
+  $temp.val($(element).attr('meta')).select();
   document.execCommand("copy");
   $temp.remove();
+
+  var div = document.createElement("div");
+  div.className = "alert alert-success";
+  div.id = "success-alert";
+  div.innerHTML = "Copied PTPS email to clipboard.";
+  document.body.appendChild(div);
+  $("#success-alert").fadeTo(2000, 500).slideUp(500, function(){
+    $("#success-alert").alert('close');
+});
 }
+

@@ -25,6 +25,13 @@ p {
     margin-bottom: 25px;
 }
 
+.alert {
+    position: fixed;
+    width: 95%;
+    top: 75%;
+    left: 2.5%;
+}
+
 .enroll {
   border-style: solid;
   border-color: #cccccc;

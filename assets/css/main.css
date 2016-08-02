@@ -75,6 +75,10 @@ img.displayed {
     color: #999999;
 }
 
+#site-email:hover {
+    color: #999999;
+}
+
 .announcement-wrapper {
     border-radius: 10px;
     width: 100%;
@@ -96,6 +100,7 @@ img.displayed {
 }
 
 .announcement-link {
+    color: black;
     border-bottom: 1px solid black;
 }
 

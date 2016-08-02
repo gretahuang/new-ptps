@@ -6014,8 +6014,19 @@ body.modal-open,
 }
 /* ===== Coordinator and Teacher picture styling ===== */
 .teacher {
-    width:150px;
-    height: auto;
+  width:150px;
+  height: auto;
+}
+/* ===== Font style for site.html subtitle ===== */
+.site-subtitle {
+  text-align: center;
+  display: block;
+  font-size: 1.2em
+}
+
+/* ===== Font style for Partner App link in site.html ===== */
+.partner-app {
+  font-weight: 500;
 }
 
 figure {

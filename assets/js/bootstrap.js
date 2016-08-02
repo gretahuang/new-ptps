@@ -2006,3 +2006,14 @@ if (!jQuery) { throw new Error("Bootstrap requires jQuery") }
   })
 
 }(window.jQuery);
+
+  // COPY TO CLIPBOARD
+  // ==============
+
+function copyToClipboard(element) {
+  var $temp = $("<input>");
+  $("body").append($temp);
+  $temp.val($(element).href()).select();
+  document.execCommand("copy");
+  $temp.remove();
+}

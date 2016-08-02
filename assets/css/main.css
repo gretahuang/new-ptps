@@ -68,14 +68,7 @@ img.displayed {
     color: #999999;
 }
 
-/*.white {
-    color: #ffffff;
-}*/
-
 .announcement-wrapper {
-/*    min-width: 100%;
-    height: auto;*/
-/*    background-image: url('../img/item-02.png');*/
     border-radius: 10px;
     width: 100%;
     height: 0;
@@ -92,35 +85,35 @@ img.displayed {
     margin-left:16%;
     color: #737373;
     text-align: justify;
-    /*text-align: left;*/
     font-size:20px;
-/*    font-family: "Inconsolata";*/
+}
+
+.announcement-link {
+    border-bottom: 1px solid black;
+}
+
+.announcement-link:hover {
+    color: #b3b3b3;
+    border-bottom: 1px solid #b3b3b3;
 }
 
 /* Links */
 a {
-    /*color: #3bc492;*/
     color: inherit;
     word-wrap: break-word;
-
-    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
-    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
-    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
-    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
-    transition: color 0.1s ease-in, background 0.1s ease-in;
+    text-decoration: none;
 }
 
 a:hover,
 a:focus {
     color: inherit;
-    /*color: #c0392b;*/
     text-decoration: none;
     outline: 0;
 }
 
 a:before,
 a:after {
-    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -webkit-transition: color 0.s ease-in, background 0.1s ease-in;
     -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
     -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
     -o-transition: color 0.1s ease-in, background 0.1s ease-in;
@@ -189,8 +182,7 @@ a:after {
   background: #ffffff url('../img/bg.jpg') no-repeat;
   background-size: cover;
   background-position: center top;
-	/*background-color: #517394;*/
-	padding-top: 30px;
+  padding-top: 30px;
   padding-bottom: 50px;
 }
 
@@ -215,6 +207,10 @@ a:after {
 #headerwrap p {
 	text-align: left;
 	color: white
+}
+
+#headerwrap a {
+    color: white;
 }
 
 /* intro Wrap */
@@ -256,21 +252,7 @@ a:after {
     font-size: 14pt;
 }
 
-/*#teacherwrap {
-	display: block;
-	background-color: #34495e;
-	padding-top: 50px;
-	padding-bottom: 50px;
-}
-
-#teacherwrap h1 {
-	color: white;
-}
-
-#teacherwrap h3 {
-    color: white;
-    font-size: 14pt;
-}*/
+/* Meet Us Wrap */
 
 .meetuswrap {
     padding: 2em;
@@ -284,6 +266,8 @@ a:after {
     margin: 0.5em;
 }
 
+/* Site Wrap */
+
 #sitewrap {
     display: block;
     background-color: #34495e;
@@ -294,6 +278,8 @@ a:after {
 #sitewrap h1 {
     color: white;
 }
+
+/* Footer Wrap */
 
 #footerwrap {
 	background-color: #2f2f2f;
@@ -334,7 +320,7 @@ a:after {
     border-radius: 10px;
     background-color: #6b8dae;
     font-size:20px;
-    color: #ffffff;
+    color: white;
     font-family: "Lato";  
     line-height:20px;
     display: block;
@@ -354,8 +340,7 @@ a:after {
 
 .btn:hover {
     border-style: none;
-    color:#ffffff;
-/*    background-color: #009900;
-*/    opacity:0.75;
+    color:white;
+    opacity:0.75;
 }
 

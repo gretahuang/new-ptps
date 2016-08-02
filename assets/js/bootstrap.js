@@ -299,6 +299,7 @@ if (!jQuery) { throw new Error("Bootstrap requires jQuery") }
   var Carousel = function (element, options) {
     this.$element    = $(element)
     this.$indicators = this.$element.find('.carousel-indicators')
+    this.$controls     = this.$element.find('.carousel-controls')
     this.options     = options
     this.paused      =
     this.sliding     =
@@ -445,7 +446,7 @@ if (!jQuery) { throw new Error("Bootstrap requires jQuery") }
       if (!data) $this.data('bs.carousel', (data = new Carousel(this, options)))
       if (typeof option == 'number') data.to(option)
       else if (action) data[action]()
-      else if (options.interval) data.pause().cycle()
+      // else if (options.interval) data.pause().cycle()
     })
   }
 
@@ -463,6 +464,14 @@ if (!jQuery) { throw new Error("Bootstrap requires jQuery") }
 
   // CAROUSEL DATA-API
   // =================
+
+  $("#left-carousel-control" ).click(function() {
+    $(".carousel").carousel("prev");
+  });
+
+  $("#right-carousel-control" ).click(function() {
+     $(".carousel").carousel("next");
+  });
 
   $(document).on('click.bs.carousel.data-api', '[data-slide], [data-slide-to]', function (e) {
     var $this   = $(this), href

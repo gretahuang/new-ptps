@@ -89,7 +89,7 @@
 				<hr>
 				<br>
 				<div class="col-lg-8 col-lg-offset-2">
-					<div id="carousel-example-generic" class="carousel slide">
+					<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
 					  	<!-- Indicators -->
 					  	<ol class="carousel-indicators">
 						    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
@@ -100,7 +100,8 @@
 					   		<div class="item active">
 					      		<div class="announcement-wrapper">
 					      			<div class="announcement">
-							      		<p> Unfortunately, we do not offer any summer classes. We will post a registration link on our website in August. If you wish to be contacted when the registration link is live, please leave your name and email <a href = "https://goo.gl/7n6yh3" target="_blank">here</a>.</p>
+							      		<p> Unfortunately, we do not offer any summer classes. We will post a registration link on our website in August. If you wish to be contacted when the registration link is live, please leave your name and email <a class="announcement-link" href = "https://goo.gl/7n6yh3" target="_blank">here</a>.
+							      		</p>
 									</div>
 								</div>
 					    	</div>
@@ -108,20 +109,26 @@
 					     		<div class="announcement-wrapper">
 					      			<div class="announcement">
 							      		<p> Sign up to test games on your smartphone. Raise money for PTPS! Click 
-							      			<a href="http://www.curios.me/signup/?group_id=1065">here</a>.</p>
-							      		<p> If you're interested in working in the field of education this summer, there are many opportunities in the East Bay that are available to you. Check <a href="assets/img/EastBayEducationSummerJobs.docx" download>this</a> document for details.</p>
+							      			<a class="announcement-link" href="http://www.curios.me/signup/?group_id=1065">here</a>.
+							      		</p>
+							      		<p> If you're interested in working in the field of education this summer, there are many opportunities in the East Bay that are available to you. Check 
+							      			<a class="announcement-link" href="assets/img/EastBayEducationSummerJobs.docx" download>this</a> document for details.
+							      		</p>
 									</div>
 								</div>
 					   		</div>
 					 	</div>
-                    <a class="left carousel-control" href="carousel-example-generic" role="button" data-slide="prev">
-                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                        <span class="sr-only">Previous</span>
-                    </a>
-                    <a class="right carousel-control" href="carousel-example-generic" role="button" data-slide="next">
-                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                        <span class="sr-only">Next</span>
-                    </a>
+					 	<!-- Controls -->
+						<ol>
+		                    <a class="left carousel-control" data-slide="prev" id="left-carousel-control">
+		                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+		                        <span class="sr-only">Previous</span>
+		                    </a>
+		                    <a class="right carousel-control" data-slide="next" id="right-carousel-control">
+		                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+		                        <span class="sr-only">Next</span>
+		                    </a>
+		                </ol>
 					</div>
 				</div>
 			</div>

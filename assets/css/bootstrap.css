@@ -6103,6 +6103,10 @@ figure figcaption {
   left: 100%;
 }
 
+.carousel-controls {
+
+}
+
 .carousel-control {
   position: absolute;
   top: 0;
@@ -6142,7 +6146,7 @@ figure figcaption {
   color: #ffffff;
   text-decoration: none;
   opacity: 0.9;
-  filter: alpha(opacity=90);
+  
 }
 
 .carousel-control .icon-prev,
@@ -6154,6 +6158,7 @@ figure figcaption {
   left: 50%;
   z-index: 5;
   display: inline-block;
+  color: #4d4d4d;
 }
 
 .carousel-control .icon-prev,
@@ -6192,7 +6197,7 @@ figure figcaption {
   margin: 1px;
   text-indent: -999px;
   cursor: pointer;
-  border: 1px solid #ffffff;
+  border: 1px solid #666666;
   border-radius: 10px;
 }
 
@@ -6200,7 +6205,7 @@ figure figcaption {
   width: 12px;
   height: 12px;
   margin: 0;
-  background-color: #ffffff;
+  background-color: #666666;
 }
 
 .carousel-caption {

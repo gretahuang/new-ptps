@@ -94,11 +94,11 @@
 	    </div> <!--/ .conta-->
 	</div><!--/ #introwrap -->
 
-	<section id="contact" name="contact"></section>
+    <section id="contact" name="contact"></section>
     <div id="footerwrap">
         <div class="container">
             <div class="col-lg-12 centered">
-                <a target="_blank" class="fa-icon" id="fa-facebook">
+                <a onclick="openFacebook('#fa-facebook')" meta="https://www.facebook.com/ptps.berkeley" class="fa-icon" id="fa-facebook">
                     <i class="fa fa-facebook-square fa-2x aria-hidden="true""></i>
                 </a>
                 <a onclick="copyToClipboard('#fa-email')" meta="ptps.berkeley@gmail.com" class="fa-icon" id="fa-email">
@@ -111,5 +111,11 @@
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
+    <script src="assets/js/bootstrap.js"></script>
+    <script>
+    $('.carousel').carousel({
+      interval: 3500
+    })
+    </script>
   </body>
 </html>

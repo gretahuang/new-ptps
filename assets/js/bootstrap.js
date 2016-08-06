@@ -2007,6 +2007,14 @@ if (!jQuery) { throw new Error("Bootstrap requires jQuery") }
 
 }(window.jQuery);
 
+  // LINK TO FACEBOOK
+  // ==============
+
+function openFacebook(element) {
+  link = $(element).attr('meta');
+  var win = window.open(link, '_blank');
+}
+
   // COPY TO CLIPBOARD
   // ==============
 
@@ -2024,6 +2032,6 @@ function copyToClipboard(element) {
   document.body.appendChild(div);
   $("#success-alert").fadeTo(2000, 500).slideUp(500, function(){
     $("#success-alert").alert('close');
-});
+  });
 }
 

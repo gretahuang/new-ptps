@@ -81,7 +81,8 @@ img.displayed {
 
 .announcement-wrapper {
     border-radius: 10px;
-    width: 100%;
+    width: 110%;
+    height: 0%;
     padding-top:70%;
 }
 
@@ -89,11 +90,15 @@ img.displayed {
     position: absolute;
     top:0;
     width:70%;
+    height: 70%;
     margin-top:10%;
     margin-left:16%;
+    padding-left: 15px; /* To keep scrollbar from overlapping text*/
+    padding-right:15px; 
     color: #737373;
     text-align: justify;
     font-size:20px;
+    overflow-y:scroll;
 }
 
 .announcement-link {

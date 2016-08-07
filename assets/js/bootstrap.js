@@ -2038,15 +2038,49 @@ function copyToClipboard(element) {
   // Scaled Font
   // ==============
 
-$(function(){
-    var scaledFont = function(el){
-            if(el.style !== undefined){
-                el.style.fontSize = (el.offsetWidth*0.35)+'%';
-            }
-            return el;
-        };
-    $(window).resize(function(){
-        $('.announcement').each(scaledFont);
+var autoSizeText;
+autoSizeText = function() {
+  var el, elements, _i, _len, _results;
+  elements = $('.resize');
+  if (elements.length < 0) {
+    return;
+  }
+  _results = [];
+  for (_i = 0, _len = elements.length; _i < _len; _i++) {
+    el = elements[_i];
+    _results.push((function(el) {
+      var resizeText, _results1;
+      resizeText = function() {
+        var elNewFontSize;
+        elNewFontSize = (parseInt($(el).css('font-size').slice(0, -2)) - 1) + 'px';
+        return $(el).css('font-size', elNewFontSize);
+      };
+      _results1 = [];
+      // alert(el.scrollHeight);
+      // alert(el.offsetHeight);
+      while (el.scrollHeight > el.offsetHeight) {
+        // alert(el.scrollHeight);
+        _results1.push(resizeText());
+      }
+      return _results1;
+    })(el));
+  }
+  return _results;
+};
+
+$(window).resize(function(){
+        autoSizeText();
     }).resize();
-});
+
+// $(function(){
+//     var scaledFont = function(el){
+//             if(el.style !== undefined){
+//                 el.style.fontSize = (el.offsetWidth*0.35)+'%';
+//             }
+//             return el;
+//         };
+//     $(window).resize(function(){
+//         $('.container>nav').each(scaledFont);
+//     }).resize();
+// });
 

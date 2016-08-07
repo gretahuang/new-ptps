@@ -2035,3 +2035,18 @@ function copyToClipboard(element) {
   });
 }
 
+  // Scaled Font
+  // ==============
+
+$(function(){
+    var scaledFont = function(el){
+            if(el.style !== undefined){
+                el.style.fontSize = (el.offsetWidth*0.35)+'%';
+            }
+            return el;
+        };
+    $(window).resize(function(){
+        $('.announcement').each(scaledFont);
+    }).resize();
+});
+

@@ -1,7 +1,7 @@
 
 body {
   background-color: #f2f2f2;
-    font-family: "Lato";
+    font-family: "Lato", sans-serif;
     font-weight: 300;
     font-size: 16px;
     color: #555;
@@ -13,7 +13,7 @@ body {
 
 /* Titles */
 h1, h2, h3, h4, h5, h6 {
-    font-family: "Raleway";
+    font-family: "Raleway", sans-serif;
     font-weight: 300;
     color: #333;
 }
@@ -144,7 +144,7 @@ a:after {
 .bul {
     display: inline-block;
     color: #ffffff;
-    font-family: "Lato";
+    font-family: "Lato", sans-serif;
     font-weight: 380;
     font-size: 14.5pt;
     margin-top: 20px;
@@ -233,7 +233,7 @@ a:after {
 }
 
 #intro h1 {
-    font-family: "Raleway";
+    font-family: "Raleway", sans-serif;
     font-size: 30pt;
 }
 
@@ -255,12 +255,12 @@ a:after {
 }
 
 #teacherwrap h1 {
-    font-family: "Raleway";
+    font-family: "Raleway", sans-serif;
     font-size: 30pt;
 }
 
 #teacherwrap h3 {
-    font-family: "Raleway";
+    font-family: "Raleway", sans-serif;
     font-size: 14pt;
 }
 
@@ -333,7 +333,7 @@ a:after {
     background-color: #6b8dae;
     font-size:20px;
     color: white;
-    font-family: "Lato";  
+    font-family: "Lato", sans-serif;  
     line-height:20px;
     display: block;
     margin-top:40px;

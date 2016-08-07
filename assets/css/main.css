@@ -80,12 +80,9 @@ img.displayed {
 }
 
 .announcement-wrapper {
-    border-radius: 10px;
     width: 100%;
-    height: 0;
     padding-top:57.45%;
-    background-size: 100% auto;
-    background-repeat: no-repeat;
+    display:table;
 }
 
 .announcement {
@@ -97,6 +94,9 @@ img.displayed {
     color: #737373;
     text-align: justify;
     font-size:20px;
+    display:table-cell;
+    vertical-align:middle;
+    overflow-y:scroll
 }
 
 .announcement-link {

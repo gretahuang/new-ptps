@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="PTPS Homepage">
+    <meta name="author" content="Greta Huang">
+    <link rel="shortcut icon" href="assets/ico/favicon.png">
+
+    <title>PTPS</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="assets/css/main.css" rel="stylesheet">
+    
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/smoothscroll.js"></script>
+    <script src="assets/js/smoothscroll-min.js"></script>
+    <script src="https://use.fontawesome.com/480032bcb7.js"></script>
+    
+
+  </head>
+
+  <body data-spy="scroll" data-offset="0" data-target="#navigation">
+
+    <!-- Fixed navbar -->
+        <div id="navigation" class="navbar navbar-default navbar-fixed-top">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand"><b>PTPS</b></a>
+            </div>
+            <div class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+                <li><a href="index.html" class="smothscroll">Home</a></li>
+                <li><a href="enroll.html" class="smothScroll">Enroll</a></li>
+                <li><a href="site.html" class="smothScroll">Become A Site</a></li>
+                <li><a href="teachers.html" class="smothScroll">Current Teachers</a></li>
+                <li class="active"><a href="contact.html" class="smothScroll">Contact Us</a></li>
+              </ul>
+            </div><!--/.nav-collapse -->
+          </div>
+        </div>
+
+
+    <section id="contact-us" name="contact-us"></section>
+    
+    <!-- ===== -->
+
+    <form class="well form-horizontal" action=" " method="post"  id="contact_form">
+        <fieldset>
+
+        <!-- Form Name -->
+        <h1 class="centered">Contact Us Today!</h1>
+        <br/>
+
+        <!-- Text input-->
+        <div class="form-group">
+          <label class="col-md-4 control-label">First Name</label>  
+          <div class="col-md-4 inputGroupContainer">
+          <div class="input-group">
+          <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+          <input  name="first_name" placeholder="First Name" class="form-control"  type="text">
+            </div>
+          </div>
+        </div>
+
+        <!-- Text input-->
+        <div class="form-group">
+          <label class="col-md-4 control-label" >Last Name</label> 
+            <div class="col-md-4 inputGroupContainer">
+            <div class="input-group">
+          <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+          <input name="last_name" placeholder="Last Name" class="form-control"  type="text">
+            </div>
+          </div>
+        </div>
+
+        <!-- Text input-->
+        <div class="form-group">
+          <label class="col-md-4 control-label">E-Mail</label>  
+            <div class="col-md-4 inputGroupContainer">
+            <div class="input-group">
+          <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
+          <input name="email" placeholder="E-Mail Address" class="form-control"  type="text">
+            </div>
+          </div>
+        </div>
+
+
+        <!-- Select Basic -->
+           
+        <div class="form-group"> 
+          <label class="col-md-4 control-label">Subject</label>
+            <div class="col-md-4 selectContainer">
+            <div class="input-group">
+                <span class="input-group-addon"><i class="glyphicon glyphicon-list"></i></span>
+            <select name="subject" class="form-control selectpicker" >
+              <option value=" " >Please select a subject</option>
+              <option>General Inquiry</option>
+              <option>Site Questions</option>
+              <option >Publicity</option>
+            </select>
+          </div>
+        </div>
+        </div>
+
+
+        <!-- Text area -->
+        <div class="form-group">
+          <label class="col-md-4 control-label">Message</label>
+            <div class="col-md-4 inputGroupContainer">
+            <div class="input-group">
+                <span class="input-group-addon"><i class="glyphicon glyphicon-pencil"></i></span>
+                    <textarea class="form-control" name="message" placeholder="Message"></textarea>
+          </div>
+          </div>
+        </div>
+
+        <!-- Success message -->
+        <div class="alert alert-success" role="alert" id="success_message">Success <i class="glyphicon glyphicon-thumbs-up"></i> Thanks for contacting us, we will get back to you shortly.</div>
+
+        <!-- Button -->
+        <div class="form-group">
+          <label class="col-md-4 control-label"></label>
+          <div class="col-md-4">
+            <button type="submit" class="btn btn-warning" >Send <span class="glyphicon glyphicon-send"></span></button>
+          </div>
+        </div>
+
+        </fieldset>
+    </form>
+
+    <!-- ===== -->
+    <section id="contact" name="contact"></section>
+    <div id="footerwrap">
+        <div class="container">
+            <div class="col-lg-12 centered">
+                <a onclick="openFacebook('#fa-facebook')" meta="https://www.facebook.com/ptps.berkeley" class="fa-icon" id="fa-facebook">
+                    <i class="fa fa-facebook-square fa-2x aria-hidden="true""></i>
+                </a>
+                <a onclick="copyToClipboard('#fa-email')" meta="ptps.berkeley@gmail.com" class="fa-icon" id="fa-email">
+                    <i class="fa fa-envelope fa-2x aria-hidden="true""></i>
+                </a>
+            </div>      
+        </div>
+    </div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="assets/js/bootstrap.js"></script>
+    <script>
+    $('.carousel').carousel({
+      interval: 5000
+    })
+    </script>
+    <script>
+        smoothScroll.init();
+    </script>
+  </body>
+</html>

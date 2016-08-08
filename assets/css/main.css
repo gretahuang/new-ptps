@@ -80,8 +80,7 @@ img.displayed {
 }
 
 .announcement-wrapper {
-/*    margin-top:10%;
-*/    border-radius: 10px;
+    border-radius: 10px;
     width: 110%;
     padding-top:65%;
 }
@@ -91,8 +90,8 @@ img.displayed {
     top:0%;
     width:70%;
     height: 65%;
-    margin-top:10%;
     margin-left:16%;
+    margin-top:17%;
     /* To keep scrollbar from overlapping text*/
     padding-left: 15px; 
     padding-right:15px; 

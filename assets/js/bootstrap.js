@@ -2078,19 +2078,24 @@ setTop = function() {
   elements = $('.announcement');
   for (_i = 0, _len = elements.length; _i < _len; _i++) {
     el = elements[_i];
+    alert(el.scrollHeight);
+    alert(el.offsetHeight);
     if (el.scrollHeight === 0 && el.offsetHeight === 0) {
       $(el).css("top", '23%');
     } else if (el.scrollHeight <= el.offsetHeight) {
-      var oldHeight = $(el).css('height');
-      $(el).css('height', "0%");
-      var newTop = el.scrollHeight/2 +'px';
+      alert("top");
+      var $clone = $(el).clone().css('height', "0%");
+      alert('bottom');
+      alert($clone[0].scrollHeight);
+      alert($clone[0].offsetHeight);
+      var newTop = $clone[0].scrollHeight/2 +'px';
       $(el).css('top', newTop);
-      $(el).css('height', oldHeight);
     }
   }
 };
 
 $(window).resize(function(){
+        alert("hi");
         setTop();
     }).resize();
 

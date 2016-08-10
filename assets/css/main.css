@@ -83,25 +83,23 @@ img.displayed {
     position: relative;
     top:0%;
     width:70%;
-    height: 200px;
     padding-bottom: 10%;
     margin-bottom: 10%;
     margin-top:10%;
     margin-left:16%;
-    margin-top:17%;
     /* To keep scrollbar from overlapping text*/
-    padding-left: 15px; 
-    padding-right:15px; 
+/*    padding-left: 15px; 
+    padding-right:15px;*/ 
     color: #737373;
     text-align: justify;
     font-size:20px;
-    overflow-y:scroll;
-    display: table;
+    /*overflow-y:scroll;*/
+    /*display: table;*/
 }
 
 .announcement {
     display: table-cell;
-    vertical-align: bottom;
+    vertical-align: middle;
 }
 
 .announcement-link {

@@ -1,6 +1,7 @@
 <?php
 $subject = $_POST['subject'];
 
+
 // if ($subject == 'Publicity') {
 //     $to = 'ptps.berkeley.publicity@gmail.com';
 // } elseif ($subject == 'Site Questions') {
@@ -8,6 +9,8 @@ $subject = $_POST['subject'];
 // } else {
 //     $to = 'ptps.berkeley@gmail.com';
 // }
+
+// testing
 $to = 'tateviks96@gmail.com';
 $name = $_POST['name'];
 $email = $_POST['email'];

@@ -2118,13 +2118,14 @@ $(document).ready(function() {
     var message = $('#message').val();
 
     var body = 'name=' + name + '&email=' + email + '&subject=' + subject + '&message=' + message;
-    console.log(body);
-    
+    console.log(body)
     $.ajax({
       type: "POST",
       url: "mail.php",
       data: body,
-      success: function(){}
+      success: function(data){
+        console.log(data);
+      }
     });
   })
 

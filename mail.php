@@ -1,7 +1,6 @@
 <?php
+
 $subject = $_POST["subject"];
-
-
 if ($subject == 'Publicity') {
     $to = 'ptps.berkeley.publicity@gmail.com';
 } elseif ($subject == 'Site Questions') {

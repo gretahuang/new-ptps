@@ -8,7 +8,6 @@ if ($subject == 'Publicity') {
 } else {
     $to = 'ptps.berkeley@gmail.com';
 }
-
 $name = $_POST["name"];
 $email = $_POST["email"];
 $message = $_POST["message"];

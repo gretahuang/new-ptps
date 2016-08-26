@@ -2158,7 +2158,7 @@ $(document).ready(function() {
                       message:'Please enter at least 10 characters and no more than 500'
                   },
                   notEmpty: {
-                      message: 'Please type your inquiry in the message field'
+                      message: 'Please type your inquiry above'
                   }
                   }
               }

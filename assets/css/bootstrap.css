@@ -6035,6 +6035,7 @@ body.modal-open,
   position: absolute;
   padding-top: 1em;
   font-size: 85%;
+  font-family: Arial;
   color: #a8a8a8;
 }
 

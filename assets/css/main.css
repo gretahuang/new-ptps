@@ -50,6 +50,10 @@ p {
   padding:20px;
 }
 
+/* FAQ classes */
+
+#faq { font-weight: bold }
+
 .centered {
     text-align: center;
 }

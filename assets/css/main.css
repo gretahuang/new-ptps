@@ -52,7 +52,9 @@ p {
 
 /* FAQ classes */
 
-#faq { font-weight: bold }
+#faq { 
+    font-weight: bold;
+}
 
 .centered {
     text-align: center;

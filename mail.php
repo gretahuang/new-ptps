@@ -2,11 +2,11 @@
 
 $subject = $_POST["subject"];
 if ($subject == 'Course Logistics') {
-    $to = 'site@ptps.berkeley.edu';
+    $to = 'info@ptps.berkeley.edu';
 } elseif ($subject == 'Site Questions') {
-    $to = 'tatevik.berkeley.edu, tateviks96@gmail.com';
+    $to = 'tatevik@berkeley.edu, tateviks96@gmail.com';
 } else {
-    $to = 'site@ptps.berkeley.edu';
+    $to = 'director@ptps.berkeley.edu';
 }
 $name = $_POST["name"];
 $email = $_POST["email"];
